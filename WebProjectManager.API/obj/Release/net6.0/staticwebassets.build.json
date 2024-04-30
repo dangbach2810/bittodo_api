@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "FCUVbG4IlDuN4W96dMbbtrC/OQh6yrMoW8b2y7cb+rg=",
+  "Source": "WebProjectManager.API",
+  "BasePath": "_content/WebProjectManager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebProjectManager.API\\wwwroot",
+      "Source": "WebProjectManager.API",
+      "ContentRoot": "E:\\WebProjectManager\\WebProjectManager.API\\wwwroot\\",
+      "BasePath": "_content/WebProjectManager.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
