@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebProjectManager.API",
+    "\\WebProjectManager.API\\Controllers"
   ],
   "SelectedNode": "\\WebProjectManager.sln",
   "PreviewInSolutionExplorer": false

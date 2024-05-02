@@ -21,6 +21,7 @@ namespace WebProjectManager.Models.Entities
         public DateTime? CreatedOn { get; set; }
         public DateTime? TimeExpiry { get; set; }
         public bool? IsActive { get; set; }
+        public string? Description { get; set; }
 
         public virtual User? CreatedByNavigation { get; set; }
         public virtual Tab? Tab { get; set; }

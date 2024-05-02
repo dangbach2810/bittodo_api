@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b1c4KdC3I4vmiSd/4UFEuvuCDLF73YyNUVsrlFS5w5s=",
+  "Hash": "Hi/Jxmbw0itx/BSBREI7xDuVUatWwFKP5LJmvryLx60=",
   "Source": "WebProjectManager.API",
   "BasePath": "_content/WebProjectManager.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebProjectManager.API\\wwwroot",
       "Source": "WebProjectManager.API",
-      "ContentRoot": "E:\\WebProjectManager\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "D:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\WebProjectManager\\WebProjectManager.API\\wwwroot\\uploads\\1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg",
+      "Identity": "D:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg",
       "SourceId": "WebProjectManager.API",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProjectManager\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "D:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "RelativePath": "uploads/1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg"
     },
     {
-      "Identity": "E:\\WebProjectManager\\WebProjectManager.API\\wwwroot\\uploads\\b5cb5d4e-3ce3-4634-8d4e-6f603800758c.jpg",
+      "Identity": "D:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\b5cb5d4e-3ce3-4634-8d4e-6f603800758c.jpg",
       "SourceId": "WebProjectManager.API",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProjectManager\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "D:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "RelativePath": "uploads/b5cb5d4e-3ce3-4634-8d4e-6f603800758c.jpg",
       "AssetKind": "All",

@@ -83,10 +83,15 @@ namespace WebProjectManager.API.Controllers
             {
                 project.Order = model.Order;
             }
+            if (model.Description != null)
+            {
+                project.Description = model.Description;
+            }
             _context.Entry(project).State = EntityState.Modified;
             await _context.SaveChangesAsync();
             return Ok(project);
         }
+      
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
@@ -145,6 +150,25 @@ namespace WebProjectManager.API.Controllers
             if (model.Name != null && model.Name != "")
             {
                 project.Name = model.Name;
+            }
+            _context.Entry(project).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(project);
+        }
+        [HttpPut("Des/{id}")]
+        public async Task<ActionResult<Card>> PutDescription(UpdateDescriptionViewModel model, Guid id)
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var project = _context.Cards.FirstOrDefault(x => x.Id == id);
+            if (project == null)
+            {
+                return BadRequest();
+            }
+            if (model.Description != null)
+            {
+                project.Description = model.Description;
             }
             _context.Entry(project).State = EntityState.Modified;
             await _context.SaveChangesAsync();

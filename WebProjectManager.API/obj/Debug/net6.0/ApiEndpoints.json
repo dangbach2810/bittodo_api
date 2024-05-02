@@ -105,6 +105,37 @@
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.CardsController",
+    "Method": "PutDescription",
+    "RelativePath": "api/Cards/Des/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebProjectManager.Common.ViewModel.UpdateDescriptionViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebProjectManager.Models.Entities.Card",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.CardsController",
     "Method": "GetById",
     "RelativePath": "api/Cards/Id/{idCard}",
     "HttpMethod": "GET",

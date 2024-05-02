@@ -101,7 +101,7 @@ namespace WebProjectManager.Models.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = new Guid("e87ac7c5-95a5-46dd-92e4-9785bf11b5f3"),
+                            UserId = new Guid("d21c6259-633e-45aa-b113-9051ed23edd7"),
                             RoleId = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc")
                         });
                 });
@@ -165,6 +165,9 @@ namespace WebProjectManager.Models.Migrations
 
                     b.Property<DateTime?>("CreatedOn")
                         .HasColumnType("datetime");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
                         .HasMaxLength(255)
@@ -351,7 +354,7 @@ namespace WebProjectManager.Models.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "ba0c0e46-5d0a-4d6f-a5fb-16360f204b7b",
+                            ConcurrencyStamp = "c8fc841f-417a-4adb-9973-8f74794d9e91",
                             Description = "Administrator role",
                             IsActive = true,
                             Name = "Admin",
@@ -678,11 +681,11 @@ namespace WebProjectManager.Models.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("e87ac7c5-95a5-46dd-92e4-9785bf11b5f3"),
+                            Id = new Guid("d21c6259-633e-45aa-b113-9051ed23edd7"),
                             AccessFailedCount = 0,
                             Address = "Đà Nẵng",
-                            ConcurrencyStamp = "ad25a31b-2fb4-4f72-a313-246d8f5d2fb8",
-                            CreatedOn = new DateTime(2022, 4, 9, 11, 20, 3, 905, DateTimeKind.Local).AddTicks(6499),
+                            ConcurrencyStamp = "d2239047-f20d-43a3-a9c8-ac371a61c572",
+                            CreatedOn = new DateTime(2024, 5, 2, 10, 10, 8, 337, DateTimeKind.Local).AddTicks(5692),
                             DateOfBirth = new DateTime(2000, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
@@ -693,12 +696,12 @@ namespace WebProjectManager.Models.Migrations
                             Lastname = "Tran Thanh",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBn/lfgI3YT5je5TLzIY1IcdAcvRrDiKWEc/Hj4FSQFrxxvutu17nzJ/HlwHox0dQA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHsanHzvgjFg1Bx8jj2Yh85UP4KlJzbiaYEHdFgNQFvfhjs+lqYnkVbFdFZNb7iSEQ==",
                             PhoneNumber = "0968354148",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UpdatedOn = new DateTime(2022, 4, 9, 11, 20, 3, 905, DateTimeKind.Local).AddTicks(6510),
+                            UpdatedOn = new DateTime(2024, 5, 2, 10, 10, 8, 337, DateTimeKind.Local).AddTicks(5704),
                             UrlAvatar = "/upload/avatar/admin1.jpg",
                             UserName = "admin123"
                         });

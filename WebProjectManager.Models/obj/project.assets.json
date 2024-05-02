@@ -2993,19 +2993,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\intern.ldbach\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\De_Cuong_API\\WebProjectManager.Models\\WebProjectManager.Models.csproj",
+      "projectUniqueName": "D:\\De_Cuong_API\\WebProjectManager.Models\\WebProjectManager.Models.csproj",
       "projectName": "WebProjectManager.Models",
-      "projectPath": "C:\\Users\\admin\\Desktop\\De_Cuong_API\\WebProjectManager.Models\\WebProjectManager.Models.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\De_Cuong_API\\WebProjectManager.Models\\obj\\",
+      "projectPath": "D:\\De_Cuong_API\\WebProjectManager.Models\\WebProjectManager.Models.csproj",
+      "packagesPath": "C:\\Users\\intern.ldbach\\.nuget\\packages\\",
+      "outputPath": "D:\\De_Cuong_API\\WebProjectManager.Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\intern.ldbach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
