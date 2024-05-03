@@ -7,12 +7,32 @@
       "RelativeMoniker": "D:0:0:{CB08E087-089F-48E3-B92B-4B9711E20819}|WebProjectManager.API\\WebProjectManager.API.csproj|solutionrelative:webprojectmanager.api\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|d:\\de_cuong_api\\webprojectmanager.common\\viewmodel\\updatenameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|solutionrelative:webprojectmanager.common\\viewmodel\\updatenameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|d:\\de_cuong_api\\webprojectmanager.common\\viewmodel\\cardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|solutionrelative:webprojectmanager.common\\viewmodel\\cardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4DDCB3-C165-49C6-B32E-C54DEE33CFA9}|WebProjectManager.Models\\WebProjectManager.Models.csproj|d:\\de_cuong_api\\webprojectmanager.models\\entities\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4DDCB3-C165-49C6-B32E-C54DEE33CFA9}|WebProjectManager.Models\\WebProjectManager.Models.csproj|solutionrelative:webprojectmanager.models\\entities\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4DDCB3-C165-49C6-B32E-C54DEE33CFA9}|WebProjectManager.Models\\WebProjectManager.Models.csproj|d:\\de_cuong_api\\webprojectmanager.models\\migrations\\20240503070549_add-estimated-finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4DDCB3-C165-49C6-B32E-C54DEE33CFA9}|WebProjectManager.Models\\WebProjectManager.Models.csproj|solutionrelative:webprojectmanager.models\\migrations\\20240503070549_add-estimated-finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4DDCB3-C165-49C6-B32E-C54DEE33CFA9}|WebProjectManager.Models\\WebProjectManager.Models.csproj|d:\\de_cuong_api\\webprojectmanager.models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4DDCB3-C165-49C6-B32E-C54DEE33CFA9}|WebProjectManager.Models\\WebProjectManager.Models.csproj|solutionrelative:webprojectmanager.models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|d:\\de_cuong_api\\webprojectmanager.common\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|solutionrelative:webprojectmanager.common\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|d:\\de_cuong_api\\webprojectmanager.common\\viewmodel\\updatedescriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|solutionrelative:webprojectmanager.common\\viewmodel\\updatedescriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|d:\\de_cuong_api\\webprojectmanager.common\\viewmodel\\updatenameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1861D9B5-488E-4F99-838D-802CAB75FA38}|WebProjectManager.Common\\WebProjectManager.Common.csproj|solutionrelative:webprojectmanager.common\\viewmodel\\updatenameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardViewModel.cs",
+              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Common\\ViewModel\\CardViewModel.cs",
+              "RelativeDocumentMoniker": "WebProjectManager.Common\\ViewModel\\CardViewModel.cs",
+              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.Common\\ViewModel\\CardViewModel.cs",
+              "RelativeToolTip": "WebProjectManager.Common\\ViewModel\\CardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:09:31.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240503070549_add-estimated-finish.cs",
+              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Models\\Migrations\\20240503070549_add-estimated-finish.cs",
+              "RelativeDocumentMoniker": "WebProjectManager.Models\\Migrations\\20240503070549_add-estimated-finish.cs",
+              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.Models\\Migrations\\20240503070549_add-estimated-finish.cs",
+              "RelativeToolTip": "WebProjectManager.Models\\Migrations\\20240503070549_add-estimated-finish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:05:52.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Models\\Entities\\Card.cs",
+              "RelativeDocumentMoniker": "WebProjectManager.Models\\Entities\\Card.cs",
+              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.Models\\Entities\\Card.cs",
+              "RelativeToolTip": "WebProjectManager.Models\\Entities\\Card.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T06:42:55.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebProjectManager.Models\\Entities\\User.cs",
+              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.Models\\Entities\\User.cs",
+              "RelativeToolTip": "WebProjectManager.Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T06:42:48.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Common\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "WebProjectManager.Common\\ViewModel\\UserViewModel.cs",
+              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.Common\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "WebProjectManager.Common\\ViewModel\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T06:42:18.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.API\\Controllers\\CardsController.cs",
+              "RelativeDocumentMoniker": "WebProjectManager.API\\Controllers\\CardsController.cs",
+              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.API\\Controllers\\CardsController.cs",
+              "RelativeToolTip": "WebProjectManager.API\\Controllers\\CardsController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAmwE4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T06:42:05.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateDescriptionViewModel.cs",
               "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Common\\ViewModel\\UpdateDescriptionViewModel.cs",
               "RelativeDocumentMoniker": "WebProjectManager.Common\\ViewModel\\UpdateDescriptionViewModel.cs",
@@ -39,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "UpdateNameViewModel.cs",
               "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.Common\\ViewModel\\UpdateNameViewModel.cs",
               "RelativeDocumentMoniker": "WebProjectManager.Common\\ViewModel\\UpdateNameViewModel.cs",
@@ -47,21 +145,7 @@
               "RelativeToolTip": "WebProjectManager.Common\\ViewModel\\UpdateNameViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T07:24:17.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CardsController.cs",
-              "DocumentMoniker": "D:\\De_Cuong_API\\WebProjectManager.API\\Controllers\\CardsController.cs",
-              "RelativeDocumentMoniker": "WebProjectManager.API\\Controllers\\CardsController.cs",
-              "ToolTip": "D:\\De_Cuong_API\\WebProjectManager.API\\Controllers\\CardsController.cs",
-              "RelativeToolTip": "WebProjectManager.API\\Controllers\\CardsController.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAqwKEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T07:21:31.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T07:24:17.328Z"
             }
           ]
         }

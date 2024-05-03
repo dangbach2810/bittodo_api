@@ -87,6 +87,10 @@ namespace WebProjectManager.API.Controllers
             {
                 project.Description = model.Description;
             }
+            if (model.EstimatedFinish != null)
+            {
+                project.EstimatedFinish = model.EstimatedFinish;
+            }
             _context.Entry(project).State = EntityState.Modified;
             await _context.SaveChangesAsync();
             return Ok(project);

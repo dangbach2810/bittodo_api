@@ -4,6 +4,6 @@
     "\\WebProjectManager.API",
     "\\WebProjectManager.API\\Controllers"
   ],
-  "SelectedNode": "\\WebProjectManager.sln",
+  "SelectedNode": "\\WebProjectManager.API\\Controllers\\CardsController.cs",
   "PreviewInSolutionExplorer": false
 }

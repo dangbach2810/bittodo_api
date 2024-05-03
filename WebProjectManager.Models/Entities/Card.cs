@@ -20,6 +20,7 @@ namespace WebProjectManager.Models.Entities
         public string? Image { get; set; }
         public DateTime? CreatedOn { get; set; }
         public DateTime? TimeExpiry { get; set; }
+        public DateTime? EstimatedFinish { get; set; }
         public bool? IsActive { get; set; }
         public string? Description { get; set; }
 
