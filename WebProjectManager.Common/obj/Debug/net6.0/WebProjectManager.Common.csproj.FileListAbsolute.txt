@@ -47,3 +47,16 @@ D:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Comm
 D:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\refint\WebProjectManager.Common.dll
 D:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.pdb
 D:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\ref\WebProjectManager.Common.dll
+E:\De_Cuong_API\WebProjectManager.Common\bin\Debug\net6.0\WebProjectManager.Common.deps.json
+E:\De_Cuong_API\WebProjectManager.Common\bin\Debug\net6.0\WebProjectManager.Common.dll
+E:\De_Cuong_API\WebProjectManager.Common\bin\Debug\net6.0\WebProjectManager.Common.pdb
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.csproj.AssemblyReference.cache
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.AssemblyInfoInputs.cache
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.AssemblyInfo.cs
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.csproj.CoreCompileInputs.cache
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.sourcelink.json
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.dll
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\refint\WebProjectManager.Common.dll
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.pdb
+E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\ref\WebProjectManager.Common.dll

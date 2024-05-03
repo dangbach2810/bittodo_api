@@ -95,7 +95,26 @@ namespace WebProjectManager.API.Controllers
             await _context.SaveChangesAsync();
             return Ok(project);
         }
-      
+        [HttpPut("SetTime/{id}")]
+        public async Task<ActionResult<Card>> PutEstimatedFinish(CardUpdateEsFinishViewModel model, Guid id)
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var project = _context.Cards.FirstOrDefault(x => x.Id == id);
+            if (project == null)
+            {
+                return BadRequest();
+            }
+            
+            if (model.EstimatedFinish != null)
+            {
+                project.EstimatedFinish = model.EstimatedFinish;
+            }
+            _context.Entry(project).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(project);
+        }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

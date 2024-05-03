@@ -265,6 +265,37 @@
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.CardsController",
+    "Method": "PutEstimatedFinish",
+    "RelativePath": "api/Cards/SetTime/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebProjectManager.Common.ViewModel.CardUpdateEsFinishViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebProjectManager.Models.Entities.Card",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.CardsController",
     "Method": "UploadImageCard",
     "RelativePath": "api/Cards/UploadImage/{id}",
     "HttpMethod": "PUT",
