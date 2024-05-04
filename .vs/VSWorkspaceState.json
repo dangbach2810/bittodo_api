@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\WebProjectManager.API",
-    "\\WebProjectManager.API\\Controllers"
+    "\\WebProjectManager.API\\Controllers",
+    "\\WebProjectManager.Common"
   ],
   "SelectedNode": "\\WebProjectManager.API\\Controllers\\CardsController.cs",
   "PreviewInSolutionExplorer": false

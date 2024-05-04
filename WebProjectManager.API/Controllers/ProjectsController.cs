@@ -102,6 +102,26 @@ namespace WebProjectManager.API.Controllers
             await _context.SaveChangesAsync();
             return Ok(project);
         }
+        [HttpPut("Name/{id}")]
+        public async Task<ActionResult<Project>> PutName(UpdateNameViewModel model, Guid id)
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var project = _context.Projects.FirstOrDefault(x => x.Id == id);
+            if (project == null)
+            {
+                return BadRequest();
+            }
+            if (model.Name != null && model.Name != "")
+            {
+                project.Name = model.Name;
+            }
+           
+            _context.Entry(project).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(project);
+        }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

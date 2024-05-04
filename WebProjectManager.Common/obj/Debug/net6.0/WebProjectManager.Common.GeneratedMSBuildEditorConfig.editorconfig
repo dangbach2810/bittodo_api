@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebProjectManager.Common
-build_property.ProjectDir = E:\De_Cuong_API\WebProjectManager.Common\
+build_property.ProjectDir = D:\De_Cuong_API\WebProjectManager.Common\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
