@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections;
 using WebProjectManager.Common.Authentication;
 using WebProjectManager.Common.ViewModel;
 using WebProjectManager.Models.EF;
@@ -30,7 +31,26 @@ namespace WebProjectManager.API.Controllers
                 .ToListAsync();
             return Ok(data);
         }
+        [HttpGet("Complete/{id}")]
+        public async Task<ActionResult<IEnumerable<Tab>>> GetCompleteProject(Guid Id)
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            // var dataProject = _context.Projects.Where(x => x.CreatedBy == Guid.Parse(userId) && x.Id == Id);
+            /* var data = await _context.Tabs
+             .Where(x => x.ProjectId == Id)
+             .Include(x => x.Cards.OrderBy(c => c.Order))
+             .ToListAsync();
 
+             var cardLists = data.Select(tab => tab.Cards.ToList()).ToList();*/
+            /*var cards = await _context.Cards.Where(c => c.Tab.ProjectId == Id).OrderBy(c => c.Order).ToListAsync();*/
+            var cards = await _context.Cards
+            .Where(c => c.Tab.ProjectId == Id && c.Tasks.All(t => t.IsActive == true))
+            .OrderBy(c => c.Order)
+            .ToListAsync();
+            return Ok(cards);
+        }
         [HttpPost("{id}")]
         public async Task<ActionResult<Tab>> Post(TabViewModel model, Guid id)
         {

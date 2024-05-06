@@ -21,7 +21,7 @@ namespace WebProjectManager.Models.EF
             : base(options)
         {
         }
-
+        
         public virtual DbSet<AccountVerification> AccountVerifications { get; set; } = null!;
         public virtual DbSet<Tab> Tabs { get; set; } = null!;
         public virtual DbSet<Card> Cards { get; set; } = null!;
@@ -40,7 +40,7 @@ namespace WebProjectManager.Models.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
+            //optionsBuilder.UseLazyLoadingProxies();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -359,7 +359,7 @@ namespace WebProjectManager.Models.EF
 
             modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("AppRoleClaims");
             modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens").HasKey(x => x.UserId);
-            modelBuilder.Seed();
+            //modelBuilder.Seed();
         }
 
     }

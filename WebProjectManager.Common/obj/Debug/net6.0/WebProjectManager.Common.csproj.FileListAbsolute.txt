@@ -60,3 +60,16 @@ E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Comm
 E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\refint\WebProjectManager.Common.dll
 E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.pdb
 E:\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\ref\WebProjectManager.Common.dll
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\bin\Debug\net6.0\WebProjectManager.Common.deps.json
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\bin\Debug\net6.0\WebProjectManager.Common.dll
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\bin\Debug\net6.0\WebProjectManager.Common.pdb
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.csproj.AssemblyReference.cache
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.AssemblyInfoInputs.cache
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.AssemblyInfo.cs
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.csproj.CoreCompileInputs.cache
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.sourcelink.json
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.dll
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\refint\WebProjectManager.Common.dll
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\WebProjectManager.Common.pdb
+C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.Common\obj\Debug\net6.0\ref\WebProjectManager.Common.dll

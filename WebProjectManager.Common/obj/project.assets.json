@@ -880,11 +880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\De_Cuong_API\\WebProjectManager.Common\\WebProjectManager.Common.csproj",
+      "projectUniqueName": "C:\\Users\\intern.ldbach\\Source\\Repos\\De_Cuong_API\\WebProjectManager.Common\\WebProjectManager.Common.csproj",
       "projectName": "WebProjectManager.Common",
-      "projectPath": "D:\\De_Cuong_API\\WebProjectManager.Common\\WebProjectManager.Common.csproj",
+      "projectPath": "C:\\Users\\intern.ldbach\\Source\\Repos\\De_Cuong_API\\WebProjectManager.Common\\WebProjectManager.Common.csproj",
       "packagesPath": "C:\\Users\\intern.ldbach\\.nuget\\packages\\",
-      "outputPath": "D:\\De_Cuong_API\\WebProjectManager.Common\\obj\\",
+      "outputPath": "C:\\Users\\intern.ldbach\\Source\\Repos\\De_Cuong_API\\WebProjectManager.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

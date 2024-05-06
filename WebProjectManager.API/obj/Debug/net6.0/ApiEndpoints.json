@@ -628,6 +628,37 @@
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.ProjectsController",
+    "Method": "PutName",
+    "RelativePath": "api/Projects/Name/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebProjectManager.Common.ViewModel.UpdateNameViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebProjectManager.Models.Entities.Project",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.ProjectsController",
     "Method": "UploadImageProject",
     "RelativePath": "api/Projects/UploadImage/{id}",
     "HttpMethod": "PUT",
@@ -661,6 +692,26 @@
     "ContainingType": "WebProjectManager.API.Controllers.ProjectsController",
     "Method": "GetUserProject",
     "RelativePath": "api/Projects/UserProject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebProjectManager.Models.Entities.Project, WebProjectManager.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.ProjectsController",
+    "Method": "GetWorkspace",
+    "RelativePath": "api/Projects/Workspace",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -780,6 +831,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.TabsController",
+    "Method": "GetCompleteProject",
+    "RelativePath": "api/Tabs/Complete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebProjectManager.Models.Entities.Tab, WebProjectManager.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.TabsController",

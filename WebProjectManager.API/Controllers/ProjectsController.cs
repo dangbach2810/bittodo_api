@@ -35,6 +35,15 @@ namespace WebProjectManager.API.Controllers
             }
             return Ok(data);
         }
+        [HttpGet("Workspace")]
+        public async Task<ActionResult<IEnumerable<Project>>> GetWorkspace()
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var data = _context.Projects.Where(x => x.CreatedBy == Guid.Parse(userId)).ToList();
+            return Ok(data);
+        }
         [HttpGet("UserProject")]
         public async Task<ActionResult<IEnumerable<Project>>> GetUserProject()
         {

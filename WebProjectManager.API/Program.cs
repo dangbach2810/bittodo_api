@@ -56,7 +56,8 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 builder.Services.AddDbContext<EFCoreDbContext>(options =>
           options.UseSqlServer(
-              builder.Configuration.GetConnectionString("ConnectionString")));
+              builder.Configuration.GetConnectionString("ConnectionString"))
+);
 
 builder.Services.AddTransient<EFCoreDbContext>();
 builder.Services.AddIdentity<User, Role>(options =>
