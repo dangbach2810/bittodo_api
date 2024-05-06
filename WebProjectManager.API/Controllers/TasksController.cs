@@ -21,10 +21,20 @@ namespace WebProjectManager.API.Controllers
         [HttpGet("{id}")]
         public ActionResult<IEnumerable<WebProjectManager.Models.Entities.Task>> Get(Guid id)
         {
-            var data = _context.Tasks.Where(x => x.CardId == id)
-                .Include(i => i.TaskUserMember)
-                    .ThenInclude(ti=>ti.MemberNavigation)
-                .ToList();
+            var data = _context.Tasks.Where(x => x.CardId == id).ToList();
+            return Ok(data);
+        }
+        [HttpGet("")]
+        public ActionResult<IEnumerable<WebProjectManager.Models.Entities.Task>> GetbyUserId()
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var data = _context.Tasks
+            .Where(x => x.CreatedBy == Guid.Parse(userId))
+            .OrderByDescending(x => x.CreatedOn)
+            .Take(5)
+            .ToList();
             return Ok(data);
         }
 

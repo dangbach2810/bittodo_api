@@ -3,8 +3,9 @@
     "",
     "\\WebProjectManager.API",
     "\\WebProjectManager.API\\Controllers",
-    "\\WebProjectManager.Common"
+    "\\WebProjectManager.Common",
+    "\\WebProjectManager.Common\\ViewModel"
   ],
-  "SelectedNode": "\\WebProjectManager.API\\Controllers\\TabsController.cs",
+  "SelectedNode": "\\WebProjectManager.Common\\ViewModel\\TaskViewModel.cs",
   "PreviewInSolutionExplorer": false
 }

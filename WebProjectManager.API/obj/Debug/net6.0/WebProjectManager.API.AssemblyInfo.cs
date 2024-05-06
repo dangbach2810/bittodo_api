@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebProjectManager.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1e85e3471a6698baa7a7c7b125f1325b36cc529")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add13e74b97d516fd6148f06ebea6b3c198e9eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebProjectManager.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebProjectManager.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

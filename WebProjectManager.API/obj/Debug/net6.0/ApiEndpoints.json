@@ -917,6 +917,26 @@
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.TasksController",
+    "Method": "GetbyUserId",
+    "RelativePath": "api/Tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebProjectManager.Models.Entities.Task, WebProjectManager.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.TasksController",
     "Method": "Get",
     "RelativePath": "api/Tasks/{id}",
     "HttpMethod": "GET",

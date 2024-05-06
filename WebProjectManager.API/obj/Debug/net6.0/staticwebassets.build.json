@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M6+0YVKj4WvfIBtXsW6ux9QZEHjNYCG5WGT5kOQOfS8=",
+  "Hash": "nlji1Hx2NTGJmvLQRn7Qp9y0NdfEx3HqDROBaxQLn8I=",
   "Source": "WebProjectManager.API",
   "BasePath": "_content/WebProjectManager.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebProjectManager.API\\wwwroot",
       "Source": "WebProjectManager.API",
-      "ContentRoot": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\08bb87b3-aff9-4ec0-a82c-424c41197ba0.jpg",
+      "Identity": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\08bb87b3-aff9-4ec0-a82c-424c41197ba0.jpg",
       "SourceId": "WebProjectManager.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "RelativePath": "uploads/08bb87b3-aff9-4ec0-a82c-424c41197ba0.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\08bb87b3-aff9-4ec0-a82c-424c41197ba0.jpg"
     },
     {
-      "Identity": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg",
+      "Identity": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg",
       "SourceId": "WebProjectManager.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "RelativePath": "uploads/1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\1932dadb-bf18-417b-8296-5a0ed4000aa6.jpg"
     },
     {
-      "Identity": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\5cc229a5-e02a-497d-9fc2-1d6ce30a2c23.jpg",
+      "Identity": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\5cc229a5-e02a-497d-9fc2-1d6ce30a2c23.jpg",
       "SourceId": "WebProjectManager.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "RelativePath": "uploads/5cc229a5-e02a-497d-9fc2-1d6ce30a2c23.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\5cc229a5-e02a-497d-9fc2-1d6ce30a2c23.jpg"
     },
     {
-      "Identity": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\b5cb5d4e-3ce3-4634-8d4e-6f603800758c.jpg",
+      "Identity": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\uploads\\b5cb5d4e-3ce3-4634-8d4e-6f603800758c.jpg",
       "SourceId": "WebProjectManager.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\intern.ldbach\\source\\repos\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
+      "ContentRoot": "E:\\De_Cuong_API\\WebProjectManager.API\\wwwroot\\",
       "BasePath": "_content/WebProjectManager.API",
       "RelativePath": "uploads/b5cb5d4e-3ce3-4634-8d4e-6f603800758c.jpg",
       "AssetKind": "All",
