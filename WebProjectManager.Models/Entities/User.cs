@@ -32,6 +32,7 @@ namespace WebProjectManager.Models.Entities
         public DateTime? UpdatedOn { get; set; }
         public bool? IsVerification { get; set; }
         public bool? IsActive { get; set; }
+        public virtual SettingEmail? IdSettingEmail { get; set; }
         public virtual ICollection<AccountVerification> AccountVerifications { get; set; }
         public virtual ICollection<CardUserMember> CardUserMembers { get; set; }
         public virtual ICollection<Card> Cards { get; set; }

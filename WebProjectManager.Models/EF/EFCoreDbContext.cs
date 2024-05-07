@@ -37,6 +37,7 @@ namespace WebProjectManager.Models.EF
         public virtual DbSet<TimesheetProject> TimesheetProjects { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
         public virtual DbSet<TaskUserMember> TaskUserMembers { get; set; } = null!;
+        public virtual DbSet<SettingEmail> SettingEmail { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -185,7 +186,16 @@ namespace WebProjectManager.Models.EF
                     .HasForeignKey(d => d.CreatedBy)
                     .HasConstraintName("FK__Projects__Create__182C9B23");
             });
+            modelBuilder.Entity<SettingEmail>(entity => {
+                entity.HasKey(e => e.Id); // Đặt UserId làm khóa chính của SettingEmail
 
+                entity.Property(e => e.UserId).ValueGeneratedNever(); // Khóa ngoại
+
+                // Khai báo quan hệ một-một giữa User và SettingEmail
+                entity.HasOne(e => e.SettingEmailNavigation)
+                    .WithOne(u => u.IdSettingEmail)
+                    .HasForeignKey<SettingEmail>(e => e.UserId); // Khóa ngoại của SettingEmail tham chiếu tới UserId trong bảng User
+            });
             modelBuilder.Entity<Role>(entity =>
             {
                 entity.Property(e => e.Id).ValueGeneratedNever();

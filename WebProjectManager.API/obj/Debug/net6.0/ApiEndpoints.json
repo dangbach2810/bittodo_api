@@ -1253,6 +1253,32 @@
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.UsersController",
+    "Method": "AcceptEmail",
+    "RelativePath": "api/Users/Accept",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WebProjectManager.Common.ViewModel.SettingEmailViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebProjectManager.Models.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.UsersController",
     "Method": "ChangePassword",
     "RelativePath": "api/Users/ChangePassword",
     "HttpMethod": "POST",
@@ -1360,6 +1386,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebProjectManager.API.Controllers.UsersController",
+    "Method": "GetSettingEmail",
+    "RelativePath": "api/Users/SettingEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebProjectManager.Models.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebProjectManager.API.Controllers.UsersController",

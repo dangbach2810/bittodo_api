@@ -546,3 +546,5 @@ C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.API\bin\Debug
 C:\Users\intern.ldbach\Source\Repos\De_Cuong_API\WebProjectManager.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
 E:\De_Cuong_API\WebProjectManager.API\bin\Debug\net6.0\Castle.Core.dll
 E:\De_Cuong_API\WebProjectManager.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\De_Cuong_API\WebProjectManager.API\bin\Debug\net6.0\Castle.Core.dll
+D:\De_Cuong_API\WebProjectManager.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll

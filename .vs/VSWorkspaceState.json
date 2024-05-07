@@ -4,8 +4,11 @@
     "\\WebProjectManager.API",
     "\\WebProjectManager.API\\Controllers",
     "\\WebProjectManager.Common",
-    "\\WebProjectManager.Common\\ViewModel"
+    "\\WebProjectManager.Common\\ViewModel",
+    "\\WebProjectManager.Models",
+    "\\WebProjectManager.Models\\EF",
+    "\\WebProjectManager.Models\\Entities"
   ],
-  "SelectedNode": "\\WebProjectManager.Common\\ViewModel\\TaskViewModel.cs",
+  "SelectedNode": "\\WebProjectManager.sln",
   "PreviewInSolutionExplorer": false
 }

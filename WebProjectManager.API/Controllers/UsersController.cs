@@ -137,7 +137,21 @@ namespace WebProjectManager.API.Controllers
                     UpdatedOn = DateTime.UtcNow,
                 };
                 var result = await _userManager.CreateAsync(user, model.Password);
-
+                if (result.Succeeded)
+                {
+                    await _context.SettingEmail.AddAsync(new SettingEmail()
+                    {
+                        Id = Guid.NewGuid(),
+                        UserId = newId,
+                        SendEmail = false,
+                        SendDaily = false,
+                        SendMonthly = false,
+                        SendWeekly = false,
+                        SendYearly = false,
+                    });
+                    _context.SaveChangesAsync();
+                    
+                }
                 if (result.Succeeded)
                 {
                     var jwtToken = GenerateJwt(user.Email, user);
@@ -507,6 +521,68 @@ namespace WebProjectManager.API.Controllers
             var infoFromToken = Auths.GetInfoFromToken(tokenString);
             var userId = infoFromToken.Result.UserId;
             var data = await _context.Users.FindAsync(id);
+
+            if (data == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(data);
+
+        }
+
+        [HttpPut("Accept")]
+        public async Task<ActionResult<User>> AcceptEmail(SettingEmailViewModel model)
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var data = await _context.SettingEmail.Where(s => s.UserId == Guid.Parse(userId)).FirstOrDefaultAsync();
+            if (data == null)
+            {
+                return NotFound();
+            }
+            if(model.SendEmail == false)
+            {
+                data.SendEmail = false;
+                data.SendDaily = false;
+                data.SendMonthly = false;
+                data.SendWeekly = false;
+                data.SendYearly = false;
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            if (model.SendEmail == true)
+            {
+                data.SendEmail = model.SendEmail;
+                if (model.SendDaily != null)
+                {
+                    data.SendDaily = model.SendDaily;
+                }
+                if (model.SendWeekly != null)
+                {
+                    data.SendWeekly = model.SendWeekly;
+                }
+                if (model.SendMonthly != null)
+                {
+                    data.SendMonthly = model.SendMonthly;
+                }
+                if (model.SendYearly != null)
+                {
+                    data.SendYearly = model.SendYearly;
+                }
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            return BadRequest();
+        }
+        [HttpGet("SettingEmail")]
+        public async Task<ActionResult<User>> GetSettingEmail()
+        {
+            string tokenString = Request.Headers["Authorization"].ToString();
+            var infoFromToken = Auths.GetInfoFromToken(tokenString);
+            var userId = infoFromToken.Result.UserId;
+            var data = await _context.SettingEmail.Where(e => e.UserId == Guid.Parse(userId)).FirstOrDefaultAsync();
 
             if (data == null)
             {
