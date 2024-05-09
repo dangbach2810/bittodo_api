@@ -112,3 +112,4 @@ ehthumbs.db
 
 # Files for upgrading version of ASP.NET Core
 global.json
+/.vs
